@@ -713,7 +713,7 @@
         <keycloak.version>6.0.1</keycloak.version>
         <log4j.version>1.2.17</log4j.version>
         <log4j2.version>2.11.0</log4j2.version>
-        <lucene-solr.version>7.7.2</lucene-solr.version>
+        <lucene-solr.version>7.5.0</lucene-solr.version>
         <maven-site-plugin.version>3.7</maven-site-plugin.version>
         <MaxPermGen>512m</MaxPermGen>
         <node-for-v2.version>v12.16.0</node-for-v2.version>
@@ -736,8 +736,8 @@
         <skipTests>false</skipTests>
         <skipUTs>false</skipUTs>
         <slf4j.version>1.7.30</slf4j.version>
-        <solr-test-framework.version>7.7.2</solr-test-framework.version>
-        <solr.version>7.7.2</solr.version>
+        <solr-test-framework.version>7.5.0</solr-test-framework.version>
+        <solr.version>7.5.0</solr.version>
         <spray.version>1.3.1</spray.version>
         <spring.security.version>4.2.17.RELEASE</spring.security.version>
         <spring.version>4.3.29.RELEASE</spring.version>
