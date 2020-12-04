@@ -675,7 +675,7 @@
         <curator.version>4.0.1</curator.version>
         <doxia.version>1.8</doxia.version>
         <dropwizard-metrics>3.2.2</dropwizard-metrics>
-        <elasticsearch.version>6.6.0</elasticsearch.version>
+        <elasticsearch.version>5.6.4</elasticsearch.version>
         <entity.repository.impl>org.apache.atlas.repository.audit.InMemoryEntityAuditRepository</entity.repository.impl>
         <enunciate-maven-plugin.version>2.11.1</enunciate-maven-plugin.version>
         <failsafe.version>2.18.1</failsafe.version>
@@ -687,8 +687,8 @@
         <guava.version>25.1-jre</guava.version>
         <guice.version>4.1.0</guice.version>
         <hadoop.hdfs-client.version>${hadoop.version}</hadoop.hdfs-client.version>
-        <hadoop.version>3.1.1</hadoop.version>
-        <hbase.version>2.0.2</hbase.version>
+        <hadoop.version>3.0.0</hadoop.version>
+        <hbase.version>2.1.4</hbase.version>
         <hive.version>3.1.0</hive.version>
         <hppc.version>0.8.1</hppc.version>
         <httpcomponents-httpclient.version>4.5.13</httpcomponents-httpclient.version>
@@ -709,7 +709,7 @@
         <jsr.version>1.1</jsr.version>
         <junit.version>4.13</junit.version>
         <kafka.scala.binary.version>2.11</kafka.scala.binary.version>
-        <kafka.version>2.0.0</kafka.version>
+        <kafka.version>2.2.1</kafka.version>
         <keycloak.version>6.0.1</keycloak.version>
         <log4j.version>1.2.17</log4j.version>
         <log4j2.version>2.11.0</log4j2.version>
