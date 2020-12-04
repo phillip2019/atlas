@@ -56,13 +56,18 @@
 #export ATLAS_EXPANDED_WEBAPP_DIR=
 
 # indicates whether or not a local instance of HBase should be started for Atlas
-export MANAGE_LOCAL_HBASE=${hbase.embedded}
+# 外置的zk和hbase
+export MANAGE_LOCAL_HBASE=false
 
 # indicates whether or not a local instance of Solr should be started for Atlas
-export MANAGE_LOCAL_SOLR=${solr.embedded}
+# 外置的solr
+export MANAGE_LOCAL_SOLR=false
 
 # indicates whether or not cassandra is the embedded backend for Atlas
-export MANAGE_EMBEDDED_CASSANDRA=${cassandra.embedded}
+export MANAGE_EMBEDDED_CASSANDRA=false
 
 # indicates whether or not a local instance of Elasticsearch should be started for Atlas
-export MANAGE_LOCAL_ELASTICSEARCH=${elasticsearch.managed}
+export MANAGE_LOCAL_ELASTICSEARCH=false
+
+#集成添加hbase配置->下面的目录为atlas下的hbase配置目录，需要后面加入集群hbase配置
+export HBASE_CONF_DIR=/usr/local/src/atlas/apache-atlas-2.0.0/conf/hbase/conf
